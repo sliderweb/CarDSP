@@ -1,14 +1,14 @@
 devices:
   samplerate: 48000
-  chunksize: 2048
+  chunksize: 4096
   #queuelimit: 128 (*)
   #silence_threshold: -60 (*)
   #silence_timeout: 3.0 (*)
-  #target_level: 500 (*)
+  target_level: 2048
   #adjust_period: 10 (*)
-  #enable_rate_adjust: true (*)
-  #enable_resampling: true (*)
-  #resampler_type: BalancedAsync (*)
+  #enable_rate_adjust: false
+  #enable_resampling: true
+  #resampler_type: BalancedAsync
   #capture_samplerate: 44100 (*)
   capture:
     type: CoreAudio
