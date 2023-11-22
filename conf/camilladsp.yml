@@ -1,0 +1,59 @@
+devices:
+  samplerate: 48000
+  chunksize: 2048
+  #queuelimit: 128 (*)
+  #silence_threshold: -60 (*)
+  #silence_timeout: 3.0 (*)
+  #target_level: 500 (*)
+  #adjust_period: 10 (*)
+  #enable_rate_adjust: true (*)
+  #enable_resampling: true (*)
+  #resampler_type: BalancedAsync (*)
+  #capture_samplerate: 44100 (*)
+  capture:
+    type: CoreAudio
+    channels: 2
+    device: "BlackHole 16ch"
+    format: FLOAT32LE
+  playback:
+    type: CoreAudio
+    channels: 2
+    device: "Saffire"
+    format: FLOAT32LE
+mixers:
+  ConvMixer:
+    channels:
+      in: 2
+      out: 2
+    mapping:
+      - dest: 0
+        sources:
+          - channel: 0
+            gain: -3
+            inverted: false
+      - dest: 1
+        sources:
+          - channel: 1
+            gain: -3
+            inverted: false
+
+filters:
+  senn585_fir:
+    type: Conv
+    parameters:
+      type: Wav 
+      filename: data/fir/SHD585minphase48000Hz.wav
+      
+pipeline:
+  - type: Mixer
+    name: ConvMixer
+
+  - type: Filter
+    channel: 0
+    names:
+      - senn585_fir
+  - type: Filter
+    channel: 1
+    names:
+      - senn585_fir
+
