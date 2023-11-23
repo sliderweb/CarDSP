@@ -1,11 +1,13 @@
 # CarDSP
-Car DSP system based on CamillaDSP and BlackHole 
+Car DSP system based on CamillaDSP and BlackHole for macOS and Apple computers. to use them as DSP for uou car audio projects... or not =)
 
 
 # Get started
-You need install two tools
-## Intstall Blackhole
-## Install...
+You need install virtual audio loopback BlackHole for capture audio from any source and route to Camilla DSP
+https://existential.audio/blackhole/
+https://github.com/HEnquist/camilladsp
+
+
 
 # Autostart CamillsDsp
 Copy plist file from *conf* directory to /Library/LaunchAgents/
