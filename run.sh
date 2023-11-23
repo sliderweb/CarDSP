@@ -1,4 +1,3 @@
 #!/bin/sh
 
-cd /Applications/CarDSP/bin
-./camilladsp ../conf/camilladsp.yml
+/Applications/CarDSP/bin/camilladsp /Applications/CarDSP/conf/camilladsp.yml
