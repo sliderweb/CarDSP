@@ -4,11 +4,8 @@
 	<dict>
 		<key>Label</key>
 		<string>local.Cardsp.plist</string>
-		<key>ProgramArguments</key>
-		<array>
-			<string>/Applications/CarDSP/bin/camilladsp</string>
-			<string>/Applications/CarDSP/conf/camilladsp.yml</string>
-		</array>
+		<key>Program</key>
+		<string>/Applications/CarDSP/run.sh</string>
 		<key>RunAtLoad</key>
 		<true/>
 		<key>StandardOutPath</key>
