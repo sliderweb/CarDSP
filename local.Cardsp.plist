@@ -11,7 +11,7 @@
 		</array>
 		<key>RunAtLoad</key>
 		<true/>
+		<key>StandardOutPath</key>
+		<string>/tmp/cardsp.log</string>
 	</dict>
-	<key>StandardOutPath</key>
-	<string>/tmp/cardsp.log</string>
 </plist>
