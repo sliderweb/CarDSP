@@ -1,5 +1,5 @@
 #!/bin/bash
-sleep 10
+#sleep 10
 date >>logs/camilladsp.log
 echo running camilladsp >>logs/camilladsp.log
 while TRUE
