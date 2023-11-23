@@ -12,4 +12,6 @@
 		<key>RunAtLoad</key>
 		<true/>
 	</dict>
+	<key>StandardOutPath</key>
+	<string>/tmp/cardsp.log</string>
 </plist>
