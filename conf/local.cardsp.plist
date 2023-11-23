@@ -1,0 +1,20 @@
+<!-- Brought to you by https://mallibone.com under MIT license. Enjoy sensibly. -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+     <dict>
+          <key>Label</key>
+          <string>local.cardsp</string>
+          <key>ProgramArguments</key>
+          <array>
+              <string>/bin/bash</string>
+              <string>/Applications/CarDSP/run.sh</string>
+          </array>
+          <key>WorkingDirectory</key>
+          <string>/Applications/CarDSP</string>
+          <key>StandardOutPath</key>
+          <string>/Applications/CarDSP/logs/camilladsp.log</string>
+          <key>RunAtLoad</key>
+          <true/>
+     </dict>
+     </plist>
