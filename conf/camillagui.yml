@@ -1,0 +1,16 @@
+---
+camilla_host: "0.0.0.0"
+camilla_port: 1234
+port: 5000
+config_dir: "/Applications/CarDSP/conf"
+coeff_dir: "/Applications/CarDSP/data/coeffs"
+default_config: "/Applications/CarDSP/conf/default_config.yml"
+active_config: "/Applications/CarDSP/conf/active_config.yml"
+active_config_txt: "/Applications/CarDSP/conf/active_config.txt"
+log_file: "/Applications/CarDSP/logs/camilladsp.log"
+update_config_symlink: true
+update_config_txt: true
+on_set_active_config: null
+on_get_active_config: null
+supported_capture_types: null
+supported_playback_types: null
