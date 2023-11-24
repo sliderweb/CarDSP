@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.c2f9b651.css",
-    "main.js": "./static/js/main.54b9de22.js",
+    "main.css": "./static/css/main.a22ba766.css",
+    "main.js": "./static/js/main.d7273d3e.js",
     "static/media/camilladsp.svg": "./static/media/camilladsp.4767ea4ad3510467418b818dc677a87e.svg",
     "index.html": "./index.html",
-    "main.c2f9b651.css.map": "./static/css/main.c2f9b651.css.map",
-    "main.54b9de22.js.map": "./static/js/main.54b9de22.js.map"
+    "main.a22ba766.css.map": "./static/css/main.a22ba766.css.map",
+    "main.d7273d3e.js.map": "./static/js/main.d7273d3e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2f9b651.css",
-    "static/js/main.54b9de22.js"
+    "static/css/main.a22ba766.css",
+    "static/js/main.d7273d3e.js"
   ]
 }
