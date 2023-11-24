@@ -2,7 +2,7 @@
 camilla_host: "127.0.0.1"
 camilla_port: 1234
 port: 5000
-config_dir: "/Applications/CarDSP//conf"
+config_dir: "/Applications/CarDSP/conf"
 coeff_dir: "/Applications/CarDSP/data/coeffs"
 default_config: "/Applications/CarDSP/conf/default_config.yml"
 active_config: "/Applications/CarDSP/conf/active_config.yml"
